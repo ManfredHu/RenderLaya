@@ -1,0 +1,17 @@
+{
+  "name": "renderlaya",
+  "version": "1.0.0",
+  "description": "在用Laya跟Matter.js做项目的时候发现Laya官方Demo有两个LayaRender文件，一个是LayaRender.js一个是matter-RenderLaya.js，看官网是用的LayaRender.js。所以就先Donwload下来用了，后面发现其中有很多坑，比如看LayaRender.js有很多参数是无用的。再来是一些什么角度指示器之类的，选项没法用。跟Matter.js的原生的渲染器有很大出入，故优化参考了Matter.js的RenderPixi.js写了这个RenderLaya.",
+  "main": "test/laya.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ManfredHu",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
