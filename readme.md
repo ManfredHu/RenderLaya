@@ -44,6 +44,8 @@
 - 其他参数大家可以随意测试
 - showIds这个参数，因为Laya本身fillText的API会报错，这里先注释掉了，可能是我用的Laya版本有问题
 
+![RenderLaya跟Matter的Render对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/iphoneDemo.jpeg)
+
 # 一些改进点
 1. 修复角度指示器
 2. remove元素的时候，遍历子元素的Sprite一起移除
