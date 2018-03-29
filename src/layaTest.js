@@ -11,7 +11,7 @@ if (window.location.href.indexOf("demo") === -1) {
         var stageHeight = 600;
 
         var Matter = Browser.window.Matter;
-        var RenderLaya = Browser.window.RenderLaya;
+        var RenderLaya = Browser.window.RenderLaya || Browser.window.LayaRender;
 
         //是否使用线框，使用则不显示图片
         var hideWireFrames = window.location.href.indexOf("hideWireFrames") > -1 ? true : false;
@@ -56,7 +56,7 @@ if (window.location.href.indexOf("demo") === -1) {
                 height: stageHeight,
                 options: {
                     hideWireFrames: false, //默认为false，正式环境开启，隐藏线框
-                    wireframes: false,
+                    wireframes: true,
                     showAngleIndicator: true, //角度指示器
                     showAxes: true, //显示坐标轴,如果显示了坐标轴则角度指示器也会一起显示
                     showVelocity: true, //显示速度

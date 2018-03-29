@@ -5,7 +5,11 @@
 而`/test/matter.html` 是写的单纯跑matter的例子，matter原生渲染器，可以看下[matter.js官网的例子](http://brm.io/matter-js/demo/#slingshot)。
 这两个应该是一模一样的。
 
-`/test/laya.html` 是跑laya和matter结合的例子，这里用到了新写的RenderLaya渲染器。这里跟[Laya官网的DEMO](https://layaair.ldc.layabox.com/demo/?category=2d&group=Physics&name=Slingshot)应该是一样的
+`/index.html` 是跑laya和matter结合的例子，这里用到了新写的RenderLaya渲染器。这里跟[Laya官网的DEMO](https://layaair.ldc.layabox.com/demo/?category=2d&group=Physics&name=Slingshot)应该是一样的，我开启了很多Debug设置。
+
+`/test/laya.html` 是跑laya官网给的和matter结合的例子，大家比对下就知道了。
+
+比对可以看下面。
 
 **但是Laya官网却不能实现类似Matter.js官网的例子,因为LayaRender写的有问题，所以要替换成RenderLaya。**
 
@@ -44,9 +48,14 @@
 5. 修复显示速度
 6. 修复显示中心点
 
-# Start
-直接打开`test/laya.html`和`test/matter.html`就可以看到了。默认显示的是改进后的对比，应该是无大差别的。
-![对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare.png)
+# Compare
+首先对比下我们的RenderLaya跟LayaRender（Laya给的DEMO的渲染器写出来的）对比
+![对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare-LayaRender-RenderLaya.png)
+
+
+再来看下RenderLaya跟Matter的Render渲染器的对比
+![对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare-RenderLaya-Render.png)
+
 
 
 

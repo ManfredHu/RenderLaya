@@ -23,7 +23,7 @@ if (window.location.href.indexOf("demo") === -1) {
         options: {
             width: 800,
             height: 600,
-            wireframes: false,
+            wireframes: true,
             showAngleIndicator: true, //显示角度指示器
             showAxes: true, //显示坐标轴,如果显示了坐标轴则角度指示器也会一起显示
             showVelocity: true, //显示速度
