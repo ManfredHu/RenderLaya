@@ -9,7 +9,11 @@
 
 `/test/laya.html` 是跑laya官网给的和matter结合的例子，大家比对下就知道了。
 
-比对可以看下面。
+- [LayaRender渲染器例子](http://www.manfredhu.com/RenderLaya/test/laya.html)
+- [RenderLaya渲染器例子](http://www.manfredhu.com/RenderLaya/index.html)
+- [Render例子（Matter.js原生渲染器）](http://www.manfredhu.com/RenderLaya/test/matter.html)
+
+比对结果可以直接看下面。
 
 **但是Laya官网却不能实现类似Matter.js官网的例子,因为LayaRender写的有问题，所以要替换成RenderLaya。**
 
@@ -50,11 +54,11 @@
 
 # Compare
 首先对比下我们的RenderLaya跟LayaRender（Laya给的DEMO的渲染器写出来的）对比
-![对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare-LayaRender-RenderLaya.png)
+![RenderLaya跟LayaRender对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare-LayaRender-RenderLaya.png)
 
 
 再来看下RenderLaya跟Matter的Render渲染器的对比
-![对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare-RenderLaya-Render.png)
+![RenderLaya跟Matter的Render对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare-RenderLaya-Render.png)
 
 
 
