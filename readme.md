@@ -45,7 +45,8 @@
 6. 修复显示中心点
 
 # Start
-直接打开`test/laya.html`和`test/matter.html`就可以看到了。
+直接打开`test/laya.html`和`test/matter.html`就可以看到了。默认显示的是改进后的对比，应该是无大差别的。
+![对比](https://github.com/ManfredHu/RenderLaya/raw/master/otherImage/compare.png)
 
 
 
