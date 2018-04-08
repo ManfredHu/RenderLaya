@@ -106,6 +106,17 @@ if (window.location.href.indexOf("demo") === -1) {
     // keep the mouse in sync with rendering
     render.mouse = mouse;
 
+    setTimeout(function(){
+        for(var i=0,len=ropeA.bodies.length;i<len;i++){
+            console.log(ropeA.bodies[i].position);
+        }
+    },5000)
+    setTimeout(function(){
+        for(var i=0,len=ropeA.bodies.length;i<len;i++){
+            console.log(ropeA.bodies[i].position);
+        }
+    },100000)
+
     // fit the render viewport to the scene
     // Matter.Render.lookAt(render, {
     //     min: { x: 0, y: 0 },
